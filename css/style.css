@@ -17,11 +17,12 @@ body{
   padding-bottom: 50px;
   display: flex;
   justify-content: center;
+  
 }
 .box{
   border-style: dashed;
   border-width: 2px;
-  max-width: 1400px;
+  
   height:520px;
   
   
@@ -91,6 +92,7 @@ li{
   margin: 0 auto;
   border-style: dashed;
   border-width: 2px;
+  max-width: 960px;
 
 }
 /* FIRST SECTION */
@@ -101,10 +103,12 @@ li{
 .box.one-left{
   background-color: #1E90FF;
   width: 55%;
+  max-width: 700px;
 }
 .box.one-right{
   background-color:#FFC0CB;
   width:35%;
+  max-width: 700px;
   
 }
 /* SECOND SECTION */
@@ -115,17 +119,35 @@ li{
 .box.two-left{
   background-color:#FFC0CB;
   width:35%;
+  max-width: 700px;
 }
 .box.two-right{
   background-color: #1E90FF;
   width: 55%;
+  max-width: 700px;
 }
- /* FIFTH CONTAINER */
-.fifth.container{
+ /* FIFTH SECTION*/
+.grey.container{
   background-color:#D3D3D3;
 }
  .box.green{
   background-color: #228B22;
   width:90%;
+  max-width: 1400px;
   height:930px;
+}
+/* BLACK SECTION */
+.black.container{
+  background-color:#23272A ;
+}
+.box.red{
+  background-color: #F08080;
+  width: 30%;
+  height:600px
+}
+.box.small{
+  background-color: #20B2AA;
+  width: 15%;
+  height:600px;
+  border-color: white;
 }
