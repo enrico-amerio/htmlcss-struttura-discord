@@ -19,6 +19,10 @@ body{
 .box{
   border-style: dashed;
   border-width: 2px;
+  max-width: 1400px;
+  height:520px;
+  
+  
   
   }
   /* HEADER */
@@ -83,9 +87,22 @@ width: 75%;
 height: 400px;
 margin: 0 auto;
 background-color: #EE82EE;
+border-style: dashed;
+border-width: 2px;
 
 }
 /* SECOND CONTAINER */
 .second.container{
-  background color: black;
+ border-top: 2px #ADD8E6 solid;
+ display: flex;
+ justify-content: center;
+}
+.box.one-left{
+  width: 55%;
+  background-color: #1E90FF;
+}
+.box.one-right{
+  width:35%;
+  background-color:#FFC0CB;
+
 }
