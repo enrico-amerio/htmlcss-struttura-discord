@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.debug{
+  background-color: rgba(255,0,0,.2);
+  border: 1px solid black;
+  
+}
+header{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #ADD8E6;
+  padding: 10px;
+ 
+  
+}
+.logo, .nav, .login{
+  background-color: #DAA520;
+  border-style: dashed;
+  border-width: 2px;
+
+}
+.logo{
+  display: flex;
+  padding:8px 190px 8px 10px;
+  
+}
+nav{
+  padding:8px 273px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+li{
+  padding-left: 3px;
+}
+.login{
+  display: flex;
+  padding:8px 10px 8px 190px;
+  
+}
