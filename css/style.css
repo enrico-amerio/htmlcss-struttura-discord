@@ -2,35 +2,62 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  
 }
 .debug{
   background-color: rgba(255,0,0,.2);
   border: 1px solid black;
   
 }
-header{
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.box{
+  border-style: dashed;
+  border-width: 2px;
+  
+  }
+  /* HEADER */
+  header{
+  background-color: #ADD8E6;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+   
+}
+.navbox{
   display: flex;
   justify-content:center;
   align-items: center;
-  background-color: #ADD8E6;
-  padding: 10px;
- 
+  width: 95%;
+  max-width: 1400px;
+  
+  
   
 }
 .logo, .nav, .login{
   background-color: #DAA520;
   border-style: dashed;
   border-width: 2px;
+  font-size: 20px;
 
 }
 .logo{
   display: flex;
   padding:8px 190px 8px 10px;
+
   
 }
-nav{
-  padding:8px 273px;
+.nav{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  flex-grow: 1;
+  /* padding:8px 273px; */
+  
 }
 ul{
   display: flex;
@@ -44,4 +71,21 @@ li{
   display: flex;
   padding:8px 10px 8px 190px;
   
+}
+/* FIRST CONTAINER */
+.container.hero{
+  background-color:#00008B;
+  
+}
+
+.box.top{
+width: 75%;
+height: 400px;
+margin: 0 auto;
+background-color: #EE82EE;
+
+}
+/* SECOND CONTAINER */
+.second.container{
+  background color: black;
 }
